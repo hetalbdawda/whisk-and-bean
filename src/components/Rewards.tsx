@@ -3,7 +3,7 @@ export default function Rewards() {
     <section className="rewards" id="rewards">
       <div className="rewards-inner">
         <p className="eyebrow eyebrow-light">Rewards</p>
-        <h2 className="section-title section-title-light">Join My Cafe Rewards</h2>
+        <h2 className="section-title section-title-light">Join Whisk & Bean Rewards</h2>
         <p className="rewards-text">
           Earn points on every order and unlock free drinks, seasonal treats, and members-only
           specials. It's our way of saying thanks for slowing down with us.

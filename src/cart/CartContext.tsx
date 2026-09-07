@@ -15,7 +15,7 @@ export type CartItem = {
   image?: string
 }
 
-const STORAGE_KEY = 'my-cafe.cart'
+const STORAGE_KEY = 'whisk-and-bean.cart'
 
 function loadCart(): CartItem[] {
   if (typeof window === 'undefined') return []

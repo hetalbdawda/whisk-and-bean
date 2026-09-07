@@ -1,8 +1,8 @@
-# My Cafe
+# Whisk & Bean
 
 ## Demo
 
-[![Watch the My Cafe demo](docs/demo-poster.jpg)](https://github.com/hetalbdawda/my-cafe/blob/main/docs/My-Cafe-demo.mp4)
+[![Watch the Whisk & Bean demo](docs/demo-poster.jpg)](https://github.com/hetalbdawda/whisk-and-bean/blob/main/docs/Whisk-and-Bean-demo.mp4)
 
 ---
 

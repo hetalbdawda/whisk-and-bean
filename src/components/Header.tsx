@@ -29,9 +29,9 @@ export default function Header() {
           >
             <MenuIcon />
           </button>
-          {/* Brand — change "My Cafe" to your café's name */}
+          {/* Brand */}
           <a href="#top" className="brand">
-            My Cafe
+            Whisk & Bean
           </a>
         </div>
 

@@ -25,7 +25,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-brand">
           <LeafSprig size={38} />
-          <span className="brand footer-brand-name">My Cafe</span>
+          <span className="brand footer-brand-name">Whisk & Bean</span>
           <p className="footer-tagline">Japanese simplicity, one cup at a time.</p>
         </div>
 
@@ -58,7 +58,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>© {new Date().getFullYear()} My Cafe. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Whisk & Bean. All rights reserved.</span>
       </div>
     </footer>
   )
