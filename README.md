@@ -1,6 +1,16 @@
-# React + TypeScript + Vite
+# My Cafe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo
+
+[![Watch the My Cafe demo](docs/demo-poster.jpg)](https://github.com/hetalbdawda/my-cafe/releases/download/demo-v1/My-Cafe-demo.mp4)
+
+▶️ **[Click the image above to watch the demo](https://github.com/hetalbdawda/my-cafe/releases/download/demo-v1/My-Cafe-demo.mp4)**
+
+---
+
+## Tech
+
+This project is built with React, TypeScript, and Vite (HMR + ESLint).
 
 Currently, two official plugins are available:
 
