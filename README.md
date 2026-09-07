@@ -2,9 +2,9 @@
 
 ## Demo
 
-[![Watch the My Cafe demo](docs/demo-poster.jpg)](https://github.com/hetalbdawda/my-cafe/releases/download/demo-v1/My-Cafe-demo.mp4)
+[![Watch the My Cafe demo](docs/demo-poster.jpg)](https://github.com/hetalbdawda/my-cafe/blob/main/docs/My-Cafe-demo.mp4)
 
-▶️ **[Click the image above to watch the demo](https://github.com/hetalbdawda/my-cafe/releases/download/demo-v1/My-Cafe-demo.mp4)**
+▶️ **[Click the image above to watch the demo](https://github.com/hetalbdawda/my-cafe/blob/main/docs/My-Cafe-demo.mp4)** (plays in your browser)
 
 ---
 
