@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npx eslint *)",
+      "Bash(cp /Users/hetaldawda/.claude/image-cache/8a1157b4-b689-4238-b604-6c0e3312e84b/8.png public/menu/hot-hojicha-latte.png)",
+      "Bash(cp /Users/hetaldawda/.claude/image-cache/8a1157b4-b689-4238-b604-6c0e3312e84b/9.png public/menu/hojicha.png)",
+      "Bash(cp /Users/hetaldawda/.claude/image-cache/8a1157b4-b689-4238-b604-6c0e3312e84b/10.png public/menu/hojicha-black-sesame.png)",
+      "Bash(cp /Users/hetaldawda/.claude/image-cache/8a1157b4-b689-4238-b604-6c0e3312e84b/12.png public/menu/blended-hojicha-latte.png)",
+      "Bash(cp /Users/hetaldawda/.claude/image-cache/8a1157b4-b689-4238-b604-6c0e3312e84b/13.png public/menu/iced-hojicha-latte.png)",
+      "Bash(cp /Users/hetaldawda/.claude/image-cache/8a1157b4-b689-4238-b604-6c0e3312e84b/14.png public/menu/cappuccino.png)",
+      "Bash(cp /Users/hetaldawda/.claude/image-cache/8a1157b4-b689-4238-b604-6c0e3312e84b/15.png public/menu/coffee-lemonade.png)",
+      "Bash(cp /Users/hetaldawda/.claude/image-cache/8a1157b4-b689-4238-b604-6c0e3312e84b/16.png public/menu/blended-coffee.png)",
+      "Bash(cp /Users/hetaldawda/.claude/image-cache/8a1157b4-b689-4238-b604-6c0e3312e84b/18.png public/menu/cold-brew.png)",
+      "Bash(awk '{print $5}')"
+    ]
+  }
+}
