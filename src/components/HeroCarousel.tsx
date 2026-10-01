@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
+import { asset } from '../asset'
 import { ChevronLeft, ChevronRight } from './icons'
 
 const AUTOPLAY_MS = 6000
@@ -38,7 +39,7 @@ export default function HeroCarousel() {
             className={`carousel-slide${index === active ? ' is-active' : ''}`}
             aria-hidden={index !== active}
           >
-            <img className="carousel-image" src={slide.image} alt={slide.label} />
+            <img className="carousel-image" src={asset(slide.image)} alt={slide.label} />
             <div className="carousel-caption">
               <h2>{slide.label}</h2>
               <a href={slide.href} className="carousel-cta">

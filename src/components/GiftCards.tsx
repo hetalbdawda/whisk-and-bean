@@ -1,9 +1,11 @@
+import { asset } from '../asset'
+
 export default function GiftCards() {
   return (
     <section className="giftcards" id="gift-cards">
       <div className="giftcards-inner">
         <div className="giftcard-image">
-          <img src="/menu/gift-card.png" alt="Whisk & Bean gift card" loading="lazy" />
+          <img src={asset('/menu/gift-card.png')} alt="Whisk & Bean gift card" loading="lazy" />
         </div>
         <div className="giftcards-copy">
           <p className="eyebrow">Gift Cards</p>

@@ -1,6 +1,7 @@
 import { MENU } from '../menuData'
 import { useCart } from '../cart/CartContext'
 import { formatPrice } from '../cart/format'
+import { asset } from '../asset'
 import { LeafSprig } from './icons'
 
 export default function Menu() {
@@ -33,7 +34,7 @@ export default function Menu() {
               <article className="drink-card" key={drink.name}>
                 <div className="drink-image">
                   {drink.image ? (
-                    <img src={drink.image} alt={drink.name} loading="lazy" />
+                    <img src={asset(drink.image)} alt={drink.name} loading="lazy" />
                   ) : (
                     <span className="drink-image-label">Image of {drink.name}</span>
                   )}

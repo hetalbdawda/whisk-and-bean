@@ -1,5 +1,6 @@
 import { useCart } from '../cart/CartContext'
 import { formatPrice } from '../cart/format'
+import { asset } from '../asset'
 import { CloseIcon } from './icons'
 
 export default function CartDrawer() {
@@ -35,7 +36,7 @@ export default function CartDrawer() {
               {items.map((item) => (
                 <li className="cart-item" key={item.name}>
                   <div className="cart-item-thumb" aria-hidden="true">
-                    {item.image && <img src={item.image} alt="" />}
+                    {item.image && <img src={asset(item.image)} alt="" />}
                   </div>
                   <div className="cart-item-body">
                     <p className="cart-item-name">{item.name}</p>

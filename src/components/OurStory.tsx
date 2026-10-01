@@ -1,3 +1,5 @@
+import { asset } from '../asset'
+
 export default function OurStory() {
   return (
     <section className="story" id="our-story">
@@ -18,7 +20,7 @@ export default function OurStory() {
           </a>
         </div>
         <div className="story-image">
-          <img src="/cafe-interior.png" alt="Inside Whisk & Bean" loading="lazy" />
+          <img src={asset('/cafe-interior.png')} alt="Inside Whisk & Bean" loading="lazy" />
         </div>
       </div>
     </section>
