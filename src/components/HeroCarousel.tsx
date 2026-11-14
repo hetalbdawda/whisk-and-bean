@@ -4,7 +4,9 @@ import { ChevronLeft, ChevronRight } from './icons'
 
 const AUTOPLAY_MS = 6000
 
-const SLIDES = [
+type Slide = { id: number; image: string; label: string; href: string; position?: string }
+
+const SLIDES: Slide[] = [
   { id: 1, image: '/carousel/loose-leaf-series.png', label: 'Tea Series', href: '#loose-leaf' },
   { id: 2, image: '/carousel/matcha-series.png', label: 'Matcha Series', href: '#matcha' },
   { id: 3, image: '/carousel/hojicha-series.png', label: 'Hojicha Series', href: '#hojicha' },
@@ -39,7 +41,12 @@ export default function HeroCarousel() {
             className={`carousel-slide${index === active ? ' is-active' : ''}`}
             aria-hidden={index !== active}
           >
-            <img className="carousel-image" src={asset(slide.image)} alt={slide.label} />
+            <img
+              className="carousel-image"
+              src={asset(slide.image)}
+              alt={slide.label}
+              style={slide.position ? { objectPosition: slide.position } : undefined}
+            />
             <div className="carousel-caption">
               <h2>{slide.label}</h2>
               <a href={slide.href} className="carousel-cta">
