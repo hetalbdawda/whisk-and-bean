@@ -4,6 +4,8 @@
 
 [![Watch the Whisk & Bean demo](docs/demo-poster.jpg)](https://github.com/hetalbdawda/whisk-and-bean/blob/main/docs/Whisk-and-Bean-demo.mp4)
 
+**Live site:** https://hetalbdawda.github.io/whisk-and-bean/
+
 ---
 
 ## Tech
